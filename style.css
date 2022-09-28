@@ -331,7 +331,7 @@
 
 
     20% {
-        letter-spacing: 10px;
+        letter-spacing: 5px;
     }
 
 }
@@ -343,4 +343,42 @@
     /* background-color; */
     /* margin-left: 0px; */
     /* float: left; */
+}
+
+@media only screen and (max-width: 600px) {
+    .back {
+        width: 100%;
+        margin-left: 0px;
+        margin: auto;
+    }
+
+    .main-card {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .main {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .start {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .start1 {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .bottom {
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .image1 {
+        margin-left: 0;
+        margin: auto;
+    }
 }
